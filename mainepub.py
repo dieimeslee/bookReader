@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from PyPDF2 import PdfReader
 
 # Caminho do arquivo
-file_path = r"C:\Users\andre\Projetos\extracTextfromBook\books\Stonehenge - Bernard Cornwell.epub"
+file_path = r"C:\Users\andre\Projetos\extracTextfromBook\books\Data Science para Negócios by Tom Fawcett Foster Provost [Fawcett, Tom] (z-lib.org).pdf"
 
 def extract_text_from_epub(epub_file_path):
     """Extrai texto de um arquivo EPUB"""
